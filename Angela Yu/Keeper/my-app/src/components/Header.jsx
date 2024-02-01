@@ -1,11 +1,12 @@
 
+import React from "react";
 
-
-function Header() {
-    return <Header>
-        <h1>Keeper</h1>
-    </Header>
-
+function Header(props, children) {
+    return (
+        <Header>
+            <h1>Hello</h1>
+        </Header>
+    );
 
 }
 
