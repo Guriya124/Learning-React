@@ -1,13 +1,14 @@
 
 import React from "react";
 
-function Header(props, children) {
+function Header() {
     return (
-        <Header>
-            <h1>Hello</h1>
-        </Header>
+
+        <header>
+            <h1>Keeper App</h1>
+        </header>
     );
 
-}
+};
 
 export default Header;
